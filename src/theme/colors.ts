@@ -2,7 +2,6 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#fe0000",
-  primary: "#d35400",
   primaryBright: "#e67e22",
   primaryDark: "#c0392b",
   secondary: "#983414",
@@ -17,7 +16,7 @@ export const brandColors = {
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  
+  primary: "#d35400",
   background: "#FAF9FA",
   backgroundDisabled: "#E9EAEB",
   contrast: "#191326",
@@ -26,7 +25,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#983414",
   textDisabled: "#a4918b",
-  textSubtle: "#421c10",
+  textSubtle: "#983414",
   borderColor: "#E9EAEB",
   card: "#FFFFFF",
   gradients: {
@@ -37,20 +36,21 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#9A6AFF",
-  background: "#343135",
-  backgroundDisabled: "#3c3742",
+  secondary: "#ff6a6a",
+  primary: "#d37a40",
+  background: "#353231",
+  backgroundDisabled: "#423a37",
   contrast: "#FFFFFF",
-  invertedContrast: "#191326",
-  input: "#483f5a",
+  invertedContrast: "#261813",
+  input: "#59453e",
   primaryDark: "#0098A1",
-  tertiary: "#353547",
-  text: "#EAE2FC",
-  textDisabled: "#666171",
-  textSubtle: "#c9c4d4",
-  borderColor: "#524B63",
-  card: "#27262c",
+  tertiary: "#474036",
+  text: "#fcf5e2",
+  textDisabled: "#706460",
+  textSubtle: "#d4c7c3",
+  borderColor: "#63524c",
+  card: "#2b2725",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+    bubblegum: "linear-gradient(139.73deg, #5c4231 0%, #54352a 100%)",
   },
 };
