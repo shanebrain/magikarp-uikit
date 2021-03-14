@@ -15,10 +15,10 @@ const rotate = keyframes`
 const SpinnerIcon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 96 96" {...props}>
-      <image width="96" height="96" href="/images/magikarp/9.png"/>
+      <image width="96" height="96" href="/images/magikarp/MagikarpSpinner.png"/>
     </Svg>
   );
-};
+};  
 
 const Container = styled.div`
   position: relative;
